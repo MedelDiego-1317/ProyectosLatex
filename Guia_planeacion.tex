@@ -1,0 +1,143 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}   % Para imágenes.
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{dashrule}
+\usepackage{geometry}
+\usepackage[spanish, mexico]{babel}
+\usepackage{subcaption}
+\usepackage[svgnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{siunitx}
+\usepackage[export]{adjustbox}
+\usepackage{multirow}
+
+\definecolor{gray(x11gray)}{rgb}{0.75, 0.75, 0.75}
+\definecolor{outerspace}{rgb}{0.25, 0.29, 0.3}
+\definecolor{pastelgreen}{rgb}{0.47, 0.87, 0.47}
+\definecolor{lincolngreen}{rgb}{0.11, 0.35, 0.02}
+
+\geometry{
+    a4paper,
+    tmargin = 1.7 cm,
+    bmargin = 1.7cm,
+    lmargin = 1.5cm,
+    rmargin = 1.5cm
+}
+
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{ \thepage  \hspace{0.5pt}\hspace{0.5pt}}
+\lhead{Tarea Examen}
+
+\begin{document}
+
+\thispagestyle{plain}
+
+
+\hrule
+\begin{center}
+    {\Large \textbf{INSTITUTO NACIONAL DE CANCEROLOGÍA}}
+    \vspace{10pt}
+
+    {\Large{{Taller de planeación I}}}
+    
+    
+    \vspace{10pt}
+
+    \hrule
+
+    \vspace{20pt}
+
+
+    {\Huge \textbf{Guía de tecnicas de planeación}}\\
+\end{center}
+
+\hdashrule{\linewidth}{1pt}{1mm}
+
+\begin{flushright}
+    {\small Medel Garduño Diego} 
+\end{flushright}
+
+
+
+\begin{tcolorbox}[colback= pastelgreen, colframe= lincolngreen, title={Consideraciones iniciales}, center title]
+    
+    Las tecnicas que descritas a continuación comparten una serie de pasos inciales, que toman en cuenta desde la entrada al sistema de eclipse hasta como colocar un campo de tratamiento y su respectivo MLC (Cabe resaltar que la tecnica de IMRT no hace uso de colocar un MLC).
+
+    \vspace{10pt}
+
+    \textbf{Pasos iniciales}
+    \begin{enumerate}
+        \item Entrar a eclipse, haciendo uso de una usuario y contraseña antes provista.
+        \item Ir al apartado de planificación de haz externo.
+        \item Colocar la identificación del paciente, designada como id.
+        \item Una vez encontrado el paciente, se desplegara una pestaña en la cual se deben seleccionar las etapas de tratamiento actuales, en caso de no haber crear una nueva etapa de tratamiento, considerando la colección de imagenes del respectivo paciente.
+        \item Al generar una nueva etapa de tratamiento, solo se encontrará las estructuras contorneadas por los medicos y un set de imagenes, obtenidas de un tomografo en los planos sagital, axial y coronal.
+        \item Como proximo paso se debe observar cual es la estructura de interes, de manera general el ICRU 83 designa al PTV como el volumen de planeación. 
+        \item Se debe revisar que la estructura en tres dimensiones del paciente coincida con \textit{cosmo}, figura que ayuda al planeador a identificar si eclipse y la manera en la que se simulo un paciente es la misma. 
+        \item Tambien se debe revisar que el isocentro coincida con los balines puestos al paciente. Este es un metodo utilizado para que la posición de un paciente sea reproducible bajo otras condiciones.
+        \item Seguido a lo anterior y practicidad a la hora de aplicar un tratamiento, se debe considerar que las coordenadas del isocentro esten redondeadas a 0 o 0.5 cm
+        \item Revisado todo esto se debe ir a la pestaña de \textit{insertar}, que se encuentra en la barra superior de la intefaz de eclipse
+        \item Una vez completado el paso anterior, se debe seleccionar la pestaña que dice \textit{nuevo plan}
+        \item A este plan se le debe de asignar una identificación, es decir, un nombre, se debe seleccionar sobre que estructura (PTV) va a trabajar, la orientación que considerará para el calculo de dosis, la prescripción de dosis y por ultimo el acelerador lineal donde se efectuará el tratamiento.
+        \item Considerando en que parte del cuerpo se encuentre el PTV se debe considerar que energia utilizar, de manera general se considera que:
+            \begin{itemize}
+                \item Si el PTV esta en cabeza, cuello o es una mama utilizar una energia de 6x
+                \item En cambio si el PTV se encuentra en una region del tronco superior (como el torso) o tronco inferior, utilizar una energia de 15x
+            \end{itemize} 
+        \item Nuevamente en la pestaña de insertar se debe seleccionar \textit{nuevo campo}
+        \item En este campo se debe especificar la energía a utilizar y la rotación del gantry y en su defecto del colimador.
+        
+    \end{enumerate}
+
+\end{tcolorbox}
+
+
+\begin{tcolorbox}[colback=pastelgreen]
+
+    \begin{enumerate}
+        \item[16.] A este nuevo campo se le debe asignar un MLC que debe estar ajustado al PTV dejando un margen de 0.5 cm
+    \end{enumerate}
+    
+\end{tcolorbox}
+
+
+
+\section{Tecnica conformal AP PA}
+
+Esta tecnica considera la indicencia de dos campos, uno que entre de forma anterior y sale por la parte posterior y otro que entra por la parte posterior y sale por la parte anterior, de ahi que su nombre sea tecnica antero posterior, postero anterior. 
+
+\vspace{10pt}
+
+Para el haz AP se debe colocar el gantry a 0 grados, mientras que para el PA el gantry debe estar a 180 grados.Una vez que se han generado dos campos con dichas angulaciones, se deben ajustar los MLC tal y como se especifico en los pasos inciales. Dado esto el planeador debe pedirle a eclipse que haga el calculo de dosis, cuando lo haya acabado es importante seleccionar que cada campo debe tener un peso tal que su suma sea del 100 porciento. 
+
+\vspace{10pt}
+
+Cuando se hayan ajustado que cada campo contribuye con un 50 porciento del peso total, de debe corroborar que la distribución de dosis cubra de manera adeacuada el PTV, y que el punto caliente de cada corte no este en algun organo de riesgo. Esta tecnica se utiliza de forma frecuente para tratamientos paliativos de hueso, como por ejemplo la columna, dada su posición en la mayoria de casos se debe cuidar que el punto caliente no se encuentre en los intestinos. Si los puntos calientes estan muy arriba o muy abajo del PTV se deben modificar los pesos de los campos, de tal manera que uno contribuya con más peso que el otro, de esta manera se manipula la posición de los puntos calientes. Este proceso puede ayudar tambien a bajar la dosis del punto de dosis maxima.
+
+\vspace{10pt}
+
+Al termino de este proceso, y considerando el rango en el que se encuentra la dosis, se debe hacer una normalización, es decir, si la prescripción del tratamiento es de 800 cGy y la interfaz de ecilpse indica que existe un punto al que se le estan dando más de 800 cGy de dosis, este punto ahora será el que entrega el 100 porciento. Una vez normalizado el plan, se debe elegir una curva con la cual se cubra el mayor porcentaje de PTV, sin que el punto de dosis maxima sobrepase el 15 porciento por encima de la dosis de prescripción. De manera clinica se acepta como adecuada hasta la curva del 88 porciento, la del 85 tambien se puede aceptar, sin embargo esta implica hacer una revisión más extenuante para designar si el aplicar esa curva no presenta un riesgo toxico para el paciente. 
+
+\vspace{10pt}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale = 0.4]{appa.jpg}
+    \caption{Ejemplo de un plan realizado con una tenica de AP PA}
+    \label{a1}
+\end{figure}
+
+\vspace{10pt}
+
+En la figura \ref{a1} se presenta un ejemplo de esta tecnica y se muestra un poco de como es la interfaz grafica de eclipse. Se trato un hueso que forma parte de las vertebras lumbares, se observa como hay dos campos opuestos, uno que entra de manera anterior y otro posterior. Este plan tuvo una cobertura del 99 porciento y el punto de dosis maxima se elevo un 13 porciento de la dosis de prescripción, lo cual aun entra en el rango de lo aceptable.
+
+\section{Tecnica corformal AP PA con oblicuos}
+\end{document}
