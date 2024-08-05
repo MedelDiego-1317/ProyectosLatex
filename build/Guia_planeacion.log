@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.29)  3 AUG 2024 23:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.29)  4 AUG 2024 21:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -659,9 +659,15 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 62--63
 <appa.jpg, id=14, 819.06pt x 343.2825pt>
 File: appa.jpg Graphic file (type jpg)
 <use appa.jpg>
-Package pdftex.def Info: appa.jpg  used on input line 133.
+Package pdftex.def Info: appa.jpg  used on input line 142.
 (pdftex.def)             Requested size: 327.6182pt x 137.31056pt.
- [2 <c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/build/appa.jpg>] (c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Guia_planeacion.aux
+ [2 <c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/build/appa.jpg>]
+<oblicuos.jpg, id=18, 825.0825pt x 347.79938pt>
+File: oblicuos.jpg Graphic file (type jpg)
+<use oblicuos.jpg>
+Package pdftex.def Info: oblicuos.jpg  used on input line 197.
+(pdftex.def)             Requested size: 330.02715pt x 139.11728pt.
+ [3 <c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/build/oblicuos.jpg>] [4] (c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Guia_planeacion.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -671,17 +677,17 @@ L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 21854 strings out of 474457
- 473120 string characters out of 5752569
+ 21864 strings out of 474457
+ 473285 string characters out of 5752569
  1939190 words of memory out of 5000000
- 43861 multiletter control sequences out of 15000+600000
- 560233 words of font info for 43 fonts, out of 8000000 for 9000
+ 43871 multiletter control sequences out of 15000+600000
+ 560838 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,11n,87p,907b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Guia_planeacion.pdf (2 pages, 190320 bytes).
+Output written on c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Guia_planeacion.pdf (4 pages, 309655 bytes).
 PDF statistics:
- 43 PDF objects out of 1000 (max. 8388607)
+ 50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

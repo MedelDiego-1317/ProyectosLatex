@@ -227,6 +227,8 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 OUTPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Guia_planeacion.pdf
 INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\appa.jpg
 INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\appa.jpg
 INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\appa.jpg
@@ -234,6 +236,13 @@ INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build
 INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\appa.jpg
 INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\appa.jpg
 INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\appa.jpg
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\oblicuos.jpg
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\oblicuos.jpg
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\oblicuos.jpg
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\oblicuos.jpg
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\oblicuos.jpg
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\oblicuos.jpg
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\oblicuos.jpg
 INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Guia_planeacion.aux
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb

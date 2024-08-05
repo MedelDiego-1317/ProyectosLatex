@@ -112,21 +112,30 @@
 
 \section{Tecnica conformal AP PA}
 
+
+\subsection{Descripción}
+
 Esta tecnica considera la indicencia de dos campos, uno que entre de forma anterior y sale por la parte posterior y otro que entra por la parte posterior y sale por la parte anterior, de ahi que su nombre sea tecnica antero posterior, postero anterior. 
 
 \vspace{10pt}
+
+\subsection{Establecimiento de la angulación del gantry y determinación del peso de los campos}
 
 Para el haz AP se debe colocar el gantry a 0 grados, mientras que para el PA el gantry debe estar a 180 grados.Una vez que se han generado dos campos con dichas angulaciones, se deben ajustar los MLC tal y como se especifico en los pasos inciales. Dado esto el planeador debe pedirle a eclipse que haga el calculo de dosis, cuando lo haya acabado es importante seleccionar que cada campo debe tener un peso tal que su suma sea del 100 porciento. 
 
 \vspace{10pt}
 
+\subsection{Consideraciones especiales: punto caliente}
+
 Cuando se hayan ajustado que cada campo contribuye con un 50 porciento del peso total, de debe corroborar que la distribución de dosis cubra de manera adeacuada el PTV, y que el punto caliente de cada corte no este en algun organo de riesgo. Esta tecnica se utiliza de forma frecuente para tratamientos paliativos de hueso, como por ejemplo la columna, dada su posición en la mayoria de casos se debe cuidar que el punto caliente no se encuentre en los intestinos. Si los puntos calientes estan muy arriba o muy abajo del PTV se deben modificar los pesos de los campos, de tal manera que uno contribuya con más peso que el otro, de esta manera se manipula la posición de los puntos calientes. Este proceso puede ayudar tambien a bajar la dosis del punto de dosis maxima.
 
 \vspace{10pt}
 
+\subsection{Proceso de normalización}
+
 Al termino de este proceso, y considerando el rango en el que se encuentra la dosis, se debe hacer una normalización, es decir, si la prescripción del tratamiento es de 800 cGy y la interfaz de ecilpse indica que existe un punto al que se le estan dando más de 800 cGy de dosis, este punto ahora será el que entrega el 100 porciento. Una vez normalizado el plan, se debe elegir una curva con la cual se cubra el mayor porcentaje de PTV, sin que el punto de dosis maxima sobrepase el 15 porciento por encima de la dosis de prescripción. De manera clinica se acepta como adecuada hasta la curva del 88 porciento, la del 85 tambien se puede aceptar, sin embargo esta implica hacer una revisión más extenuante para designar si el aplicar esa curva no presenta un riesgo toxico para el paciente. 
 
-\vspace{10pt}
+\subsection{Ejemplo practico}
 
 \begin{figure}[h!]
     \centering
@@ -135,9 +144,69 @@ Al termino de este proceso, y considerando el rango en el que se encuentra la do
     \label{a1}
 \end{figure}
 
-\vspace{10pt}
+
+
+
 
 En la figura \ref{a1} se presenta un ejemplo de esta tecnica y se muestra un poco de como es la interfaz grafica de eclipse. Se trato un hueso que forma parte de las vertebras lumbares, se observa como hay dos campos opuestos, uno que entra de manera anterior y otro posterior. Este plan tuvo una cobertura del 99 porciento y el punto de dosis maxima se elevo un 13 porciento de la dosis de prescripción, lo cual aun entra en el rango de lo aceptable.
 
 \section{Tecnica corformal AP PA con oblicuos}
+
+
+\subsection{Descripción}
+
+Esta tecnica es similar a la anterior, solamente que ahora se agregan dos campos, los angulos en los que entran pueden variar, sin embargo de manera habitual se considera 150 y 210 grados. 
+
+\vspace{10pt}
+
+\subsection{Diferencia entre una tecnica AP PA normal y una que utiliza oblicuos}
+
+
+Para este caso se va a segur la misma secuencia de pasos, por tanto cuando ya se tengan los campos AP y PA con sus respectivos MLC, se deben añadir dos más, uno de ellos debe tener una rotación de gantry a 150 grados y el otro a 210 grados, de esta forma se generan dos haces que entran de forma oblicua al volumen de planeación (PTV). 
+
+\vspace{10pt}
+
+
+Despues de agregar las MLC y haberlas ajustado al PTV, se le debe pedir a eclipse que haga el calculo de dosis. Cuando este proceso termine, se debe designar que el peso de los campos sea del 100 porciento, es decir, de manera inicial cada campo debe contribuir con un 25 porciento del peso total. Sin embargo, es importante tomar en cuenta que los campos no deben tener pesos similares, se recomienda que el peso de los campos oblicuos sea del 15 porciento, para que así los campos AP y PA tengan mayor peso.
+
+\subsection{Uso de subcampos y dosis maxima}
+
+Es importante esclarecer que el uso de subcampos es algo que depende de la distribución de dosis, es decir, se recomienda para este tipo de tecnicas que la distribución sea lo más uniforme que se pueda, lo cual implica que hay eliminar aquellas zonas que muestren un alto gradiente, respecto a los demas gradientes. Entonces si existen zonas de alto gradiente, se recomienda hacer uso de subcampos para asi generar un distribución de dosis mas homogenea, de igual forma esto puede contribuir con la disminución de la dosis maxima en un punto. 
+
+\vspace{10pt}
+
+
+\subsection{Cobertura}
+
+
+Una vez que la dosis es homogenea ya sea con el uso de subcampos o en dado caso que no los necesite, es importante observar la cobertura. Algunos reportes ICRU relatan que se considera una buena cobertura si esta es mayor al 95 porciento del PTV. Sin embargo, la cobertura estará influencia a otros criterios, entre ellos los clinicos, es decir, que tanto el medico indica que debe cubrir, en dado caso la cobertura esta sujeta aun criterio mas especializado. 
+
+\vspace{10pt}
+
+
+Por tanto es importante que cubra el mayor porcentaje de PTV, sin que el punto de dosis maxima sobrepase el 15 porciento, por arriba de este umbral, se debe evaluar si el tratamiento puede darse y no es demasiado toxico para el paciente.
+
+\vspace{10pt}
+
+
+
+\subsection{Ejemplo practico}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale = 0.4]{oblicuos.jpg}
+    \caption{Ejemplo de un plan realizado con una tenica de campos oblicuos}
+    \label{a2}
+\end{figure}
+
+
+En este caso la figura \ref{a2} muestra como deben ser los campos cuando se utiliza una tecnica de campos oblicuos, de igual manera se ilustra que la distribución de dosis opta una figura en forma de un especie de huevo, lo cual sirve para disminuir el volumen de tejido irradiado, que en consecuencia implica una mejor protección a los organos de riesgo. 
+
+\vspace{10pt}
+
+Algo a mencionar de este plan es que su cobertura fue del 93 porciento y la dosis maxima tuvo un mayor valor que en la tecnica de AP PA, sin embargo estos valores no son suficientes para evaluar si una tecnica es mayor que otra, cada una tiene sus diferencias y ventajas respecto a lo que se busca tratar. La diferencia entre los oblicuos y el AP PA, tambien puede deberse a la dificultad de la tecnica, mientras que hacer un plan con AP PA es relativamente sencillo, los oblicuos implican una mayor destreza. 
+
+
+\section{Holocraneo}
+
 \end{document}
