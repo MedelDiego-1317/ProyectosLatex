@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1722829499.90457 "c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/Guia_planeacion.tex" "build/Guia_planeacion.pdf" "Guia_planeacion" 1722829502.30113 0
+["pdflatex"] 1722919253.49419 "c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/Guia_planeacion.tex" "build/Guia_planeacion.pdf" "Guia_planeacion" 1722919256.57509 0
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
@@ -132,11 +132,14 @@
   "C:/Users/diego/AppData/Roaming/MiKTeX/tex/latex/translations/dicts/translations-basic-dictionary-spanish.trsl" 1644048522 5850 2ef40dd7b6b9ada125cd1d90b7f7b307 ""
   "C:/Users/diego/AppData/Roaming/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "C:/Users/diego/AppData/Roaming/MiKTeX/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
-  "Guia_planeacion.tex" 1722829495 11925 bb75e24b2631b79fd91b394bbcbcdc59 ""
-  "build/Guia_planeacion.aux" 1722829501 2187 60796737ae3292d6fa0ea0eb7f9871ce "pdflatex"
+  "Guia_planeacion.tex" 1722919252 19950 ee0a8fe95a35fbbff768116bb821079b ""
+  "build/Guia_planeacion.aux" 1722919255 4274 e0e4203ad1c894cdd0d7fb7fb0497c04 "pdflatex"
+  "build/IMRT.jpg" 1722918808 146540 c844a17d39559a2bb8f354bc9e1cc88b ""
   "build/appa.jpg" 1722749684 98663 12f5469697037cab1a65963c08750a66 ""
+  "build/caja.jpg" 1722916744 136660 171b1e30a8523c8bb094811ada01f256 ""
+  "build/holo.jpg" 1722913038 131795 23ba92eb08ad73e224f35b4b59eaba9c ""
   "build/oblicuos.jpg" 1722829096 112218 cecd2fe8cf5fbf0d15fc5f912a5b4989 ""
-  "c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/Guia_planeacion.tex" 1722829495 11925 bb75e24b2631b79fd91b394bbcbcdc59 ""
+  "c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/Guia_planeacion.tex" 1722919252 19950 ee0a8fe95a35fbbff768116bb821079b ""
   (generated)
   "build/Guia_planeacion.aux"
   "build/Guia_planeacion.log"

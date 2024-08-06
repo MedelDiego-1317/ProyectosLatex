@@ -209,4 +209,112 @@ Algo a mencionar de este plan es que su cobertura fue del 93 porciento y la dosi
 
 \section{Holocraneo}
 
+\subsection{Descripción}
+
+Esta tecnica esta definida para tratar pacientes con alguna afección a nivel de cerebro, es un tratamiento paliativo y se busca que sea lo menos toxico posible para la persona irradiada, para ello es importante tener control sobre el punto de dosis maxima y la homogeneidad de la distribución de dosis. Un punto a recalcar es que de manera general se utiliza una prescripcion de 30 en 10, es decir, se aplican 30 Gy en un total de 10 sesiones.
+
+\subsection{Sobre la planeación}
+
+Cuando se realiza un holocraneo es importante tomar en cuenta que se hará uso de dos campos como en una tecnica AP PA, sin embargo, la angulación es distinta, para esta tecnica se busca que la dosis entre de manera temporo parietal, entonces se coloca el grantry a 90 y 270 grados para cada campo. Una vez colocados los campos es importante observar la distribución de dosis, debe ser homogenea, es decir, en particular no deben verse zonas con mayor gradiente que otras, tomando como punto de referencia la linea sagital que divide al cuerpo.
+
+\subsection{Inhomogenidades en la distribución}
+
+En dado caso que exista un desbalance en la distribución de dosis, esta puede deberse a que en la simulación la cabeza del paciente tenia cierta angulación respecto al plano que pasa por su eje sagital. Para solucionar este percanse se debe hacer una modificación en los pesos de los campos, de tal forma que el campo que presenta un mayor gradiente de dosis tenga menor peso que aquel que tuvo menor gradiente.
+
+\subsection{Organos de riesgo}
+
+Un punto importante en esta tecnica es la protección de los organos de riesgo, como lo es el cristalino, ya que la prescripción demanda una cantidad que si da de lleno en el cristalino puede generar opacidad o en cierto caso ceguera temporal. Es por ello que es importante mantener la dosis maxima de los cristalinos por debajo de los 10 Gy, para se debe colocar las hojas del MLC principal cubriendo estas estructuras, para asi darles una protección adecuada. Si esto si hiciera con un subcampo, la protección buscada solo se lograría aumentando mucho los pesos de los subcampos, lo cual tendria como resultado huecos en la distribución de dosis.
+
+\vspace{10pt}
+
+
+Una consecuencia de la protección de los cristalinos es que la cobertura se puede ver afectada, por tanto, este proceso tambien queda a elección del medico, si elige que es más importante que la dosis cubra el mayor porcentaje del PTV o prioriza los organos de riesgo.
+
+
+\subsection{Ejemplo practico}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale = 0.4]{holo.jpg}
+    \caption{Ejemplo de un plan realizado con una tenica de holocraneo}
+    \label{a3}
+\end{figure}
+
+
+En la figura \ref{a3} se ilustra como se efectua una tecnica de holocraneo, en la imagen superior derecha se muestra de manera clara como deben de entrar los campos en el paciente, en la figura superior izquierda se logra observar que la dosis es homogenea y no se encuentra cargada para ningun lado. En este plan se puso como objetivo proteger a los cristalinos, es por ello que la dosis maxima que recibe cada uno quedo al rededor de los 3 Gy, lo cual puede considerarse como aceptable. La cobertura no se vio afectada del todo, sin protección en los cristalinos a una curva del 88 porciento, se lograba una cobertura del 98.6 porciento, mientras que cubriendo a los cristalinos a la misma curva la cobertura disminuia al 98.04 porciento. 
+
+
+\newpage
+
+\section{Tecnica conformal de caja}
+
+\subsection{Descripción}
+
+
+Esta tecnica es paliativa, normalmente utilizada en PTV que tengan una geometria similar a la de un rectangulo en 2D y una caja en 3D, es por ello que la tecnica lleva este nombre. Consiste en el uso de cuatro campos, cada uno separado del otro en 90 grados.
+
+
+\subsection{Sobre la tecnica}
+
+
+En principio de debe seguir la misma serie de pasos que en un AP PA, solamente que se deben agregar dos campos más, uno a 90 grados y el otro a 270 grados. Una vez creados, se les debe asignar un MLC, ajustado al PTV, despues indicarle a eclipse que haga el calculo de dosis, cuando temine se debe designar que la suma de los pesos de los campos sea del 100 porciento, para esta tecnica tambien es importante considerar la homogeneidad de la distribución de dosis, por lo que se deben modificar los pesos de los campos hasta que la dosis sea lo más homogenea posible.
+
+\vspace{10pt}
+
+Es importante mencionar que al igual que en las otras tecnicas debe de haber un control en el punto de maxima dosis, este no debe de exceder el 15 porciento. Un aspecto caracteristico de esta tecnica es que los puntos de dosis elevada se van a encontrar en alguna de las aristas de las caja.
+
+
+\subsection{Consideraciones finales}
+
+
+De igual forma se busca que la cobertura del PTV sea lo más cercana a 100 porciento que se pueda, es importante explicar que en este tipo de tecnica el volumen irradiado será mayor que el volumen del PTV. 
+
+\subsection{Ejemplo practico}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale = 0.4]{caja.jpg}
+    \caption{Ejemplo de un plan realizado con una tenica de caja}
+    \label{a4}
+\end{figure}
+
+
+En este ejemplo se hizo un plan para tratar una vertebra de forma paliativa, por lo que se dieron 4500 cGy en 25 fracciones. Se conformo el PTV de tal forma que se cubrio 98 porciento del volumen, sin embargo como el PTV no tiene una geometria exactamente igual a la de una caja, el volumen irradiado es mayor al volumen del PTV.
+
+
+\section{Tecnica IMRT}
+
+\subsection{Descripción}
+
+Esta tecnica se describio en el reporte del ICRU 83, donde se establecieron algunas definiciones que resultan distintas a las utilizadas para las tecnicas conformales presentadas anteriormente. Como primer elemento aqui ya no se busca la uniformidad, ya que habrán zonas que tengan un gradiente mayor de dosis y esto es debido en principio a la naturaleza de la tecnica que se basa en la diferencia de las fluencias entre los campos. Es preciso especificar que esta tecnica es realizada por el sistema de planeación, a partir de iteraciones, donde busca la fluencia adeacuada considerando un parametros dados por el planeador.
+
+\subsection{Sobre la tecnica}
+
+En principio se deben establecer entre 7 y 9 campos, repartidos de manera simetrica, es decir, que entre cada campo haya la misma angulación. En este caso no hay que introducir MLC, el mismo optimizador de eclipse se encargara de establecer los MLC y ajustar las hojas de la manera que considere mejor. Para tener un buen resultado hay que introducir al optimizador dos valores, uno de ellos que represente la dosis para el 95 porciento del PTV, y ese será el minimo, por otra parte segundo valor esta dado por la dosis maxima al 110 porciento.
+
+\vspace{10pt}
+
+Con estos valores el programa buscara optimizar cual es la configuración adecuada de hojas del MLC para llegar a ese resultado. Cuando haya llegado al objetivo, mostrara los campos y los MLC, como paso final se debe revisar que la dosis cubra bien el PTV y que no falte en ninguno de los cortes de la tomografia.
+
+\section{Ejemplo practico}
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale = 0.4]{IMRT.jpg}
+    \caption{Ejemplo de un plan realizado con una tenica de IMRT}
+    \label{a5}
+\end{figure}
+
+
+
+En la figura \ref{a5} se muestra la tecnica de IMRT, donde se consideraron 7 campos, cada uno de ellos separado en 40 grados. Se utilizo el mismo paciente que en la tecnica de caja, esto para comparar las diferencias entre cada tecnica. La principal diferencia es el volumen irradiado, que es muy similar al volumen del PTV, considerando el indice de conformidad (valor que indica el grado en el que el volumen irradiado y el volumen del PTV son similares), que fue de 1.11 para IMRT y para la tecnica de caja fue de 1.56, en este sentido se modulo mucho mejor la forma del PTV, cuidando asi la irradiación a tejido sano. 
+
+
+
+
+
+
+
+
 \end{document}
