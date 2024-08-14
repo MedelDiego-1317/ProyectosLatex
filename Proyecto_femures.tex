@@ -1,51 +1,103 @@
-\documentclass{article}
+\documentclass[letterpaper,12pt,oneside]{book}
+\usepackage[top=1in, left=0.9in, right=1.25in, bottom=1in]{geometry}
 \usepackage[utf8]{inputenc}
-\usepackage{graphicx}   % Para imágenes.
-\usepackage{multicol}
-\usepackage{amsmath}
-\usepackage{dashrule}
-\usepackage{geometry}
-\usepackage[spanish, mexico]{babel}
-\usepackage{subcaption}
-\usepackage[svgnames]{xcolor}
-\usepackage{tcolorbox}
-\usepackage[table,xcdraw]{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage[spanish,es-nodecimaldot,es-tabla]{babel}
+\usepackage{graphicx}
+\usepackage{tikz} 
+\usepackage{tocloft}
+\graphicspath{{./figs/}}
+\usepackage{setspace}
 \usepackage{fancyhdr}
-\usepackage{enumitem}
-\usepackage{siunitx}
-\usepackage[export]{adjustbox}
-\usepackage{multirow}
-
-\definecolor{gray(x11gray)}{rgb}{0.75, 0.75, 0.75}
-\definecolor{outerspace}{rgb}{0.25, 0.29, 0.3}
-\definecolor{pastelgreen}{rgb}{0.47, 0.87, 0.47}
-\definecolor{lincolngreen}{rgb}{0.11, 0.35, 0.02}
-
-\geometry{
-    a4paper,
-    tmargin = 1.7 cm,
-    bmargin = 1.7cm,
-    lmargin = 1.5cm,
-    rmargin = 1.5cm
-}
 
 
-
-\pagestyle{fancy}
-\fancyhf{}
-\cfoot{ \thepage  \hspace{0.5pt}\hspace{0.5pt}}
-\lhead{Tarea Examen}
 
 \begin{document}
 
-\thispagestyle{plain}
+    \begin{titlepage}
+        \thispagestyle{empty}
+        \begin{minipage}[c][0.17\textheight][c]{0.25\textwidth}
+            \begin{center}
+                \includegraphics[width=3.5cm, height=3.5cm]{Escudo-UNAM.pdf}
+            \end{center}
+        \end{minipage}
+        \begin{minipage}[c][0.195\textheight][t]{0.75\textwidth}
+            \begin{center}
+                \vspace{0.3cm}
+                \textbf{\textsc{\large Universidad Nacional Aut\'onoma de M\'exico}}\\[0.5cm]
+                \vspace{0.3cm}
+                \hrule height2.5pt
+                \vspace{.2cm}
+                \hrule height1pt
+                \vspace{1.2cm}
+                \textbf{\textsc{\large Facultad de Ciencias}}\\[0.5cm] %
+            \end{center}
+        \end{minipage}
+
+        \begin{minipage}[c][0.81\textheight][t]{0.25\textwidth}
+            \vspace*{5mm}
+            \begin{center}
+                \hskip2.0mm
+                \vrule width1pt height13cm 
+                \vspace{5mm}
+                \hskip2pt
+                \vrule width2.5pt height13cm
+                \hskip2mm
+                \vrule width1pt height13cm \\
+                \vspace{5mm}
+                \includegraphics[height=4.0cm]{Escudo-FCIENCIAS.pdf}
+            \end{center}
+        \end{minipage}
+        \begin{minipage}[c][0.81\textheight][t]{0.75\textwidth}
+            \begin{center}
+                \vspace{0.5cm}
+
+                {\large\scshape Métodos Numéricos de la Hidrodinámica Relativista aplicados a problemas de acreción y eyección en jets astrofísicos}
+
+                \vspace{2cm}            
+
+                \textsc{\large Reporte de práctica profesional}\\[0.5cm]
+                \textsc{\large para obtener el t\'itulo de:}\\[1.5cm]
+                \textbf{\textsc{\Large Licenciado en Física Biomédica}}\\[2 cm]
+                \textsc{\Large p r e s e n t a :}\\[0.5cm]
+                \textbf{\textsc{\large {Diego Medel Garduño}}}\\[2cm]          
+
+                \vspace{0.5cm}
+
+                {\large\scshape Tutores:\\[0.3cm] {M en C. Griselda Adriana Cruz Priego}}\\[.2in]
+
+                \vspace{0.5cm}
+
+                \large{Ciudad Universitaria, CDMX,}{ }{2024}
+            \end{center}
+        \end{minipage}
+    \end{titlepage}
+
+    \frontmatter
+    \chapter{Agradecimientos}
+
+    \newpage
+
+    \tableofcontents
+    \mainmatter
 
 
-\begin{multicols}{2}
-    \section{Introduccción}
+    \chapter{Planteamiento del problema}
+    \chapter{Justificación}
+    
 
-    \section{Metodología}
+    
 
-\end{multicols}
+    \chapter{Marco Teórico}
+    \section{Morfofisiología ósea}
+
+    \section{Fracturas de femúr proximal}
+
+    \chapter{Objetivos}
+    \chapter{Materiales y Métodos}
+
+    \chapter{Resultados}
+    \chapter{Discusión de Resultados}
+    \chapter{Conclusiones}
 
 \end{document}

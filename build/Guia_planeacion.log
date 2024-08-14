@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.29)  5 AUG 2024 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.29)  8 AUG 2024 12:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -563,31 +563,46 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@cntb=\count331
 \multirow@dima=\skip69
 \bigstrutjot=\dimen296
-) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+)
+
+Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
+(fancyhdr)                Please consider using the `twoside' option on input line 33.
+
+
+c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/Guia_planeacion.tex:35: LaTeX Error: Command \chaptermark undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \renewcommand{\chaptermark}
+                                [1]{\markboth{#1}{}}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count332
 \l__pdf_internal_box=\box128
-) (c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Guia_planeacion.aux
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
 )
+No file Guia_planeacion.aux.
 \openout1 = `Guia_planeacion.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
- (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count333
 \scratchdimen=\dimen297
@@ -640,16 +655,16 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 39.
-LaTeX Info: Redefining \% on input line 39.
+LaTeX Info: Redefining \. on input line 38.
+LaTeX Info: Redefining \% on input line 38.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (C:\Users\diego\AppData\Roaming\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 39.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 38.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 62--63
+Overfull \hbox (15.0pt too wide) in paragraph at lines 61--62
 [][] [] 
  []
 
@@ -659,37 +674,52 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 62--63
 <appa.jpg, id=14, 819.06pt x 343.2825pt>
 File: appa.jpg Graphic file (type jpg)
 <use appa.jpg>
-Package pdftex.def Info: appa.jpg  used on input line 142.
+Package pdftex.def Info: appa.jpg  used on input line 141.
 (pdftex.def)             Requested size: 327.6182pt x 137.31056pt.
- [2 <c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/build/appa.jpg>]
+
+
+LaTeX Warning: Reference `a1' on page 2 undefined on input line 150.
+
+[2 <c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/build/appa.jpg>]
 <oblicuos.jpg, id=18, 825.0825pt x 347.79938pt>
 File: oblicuos.jpg Graphic file (type jpg)
 <use oblicuos.jpg>
-Package pdftex.def Info: oblicuos.jpg  used on input line 197.
+Package pdftex.def Info: oblicuos.jpg  used on input line 196.
 (pdftex.def)             Requested size: 330.02715pt x 139.11728pt.
- [3 <c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/build/oblicuos.jpg>]
+
+
+LaTeX Warning: Reference `a2' on page 3 undefined on input line 202.
+
+[3 <c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/build/oblicuos.jpg>]
 <holo.jpg, id=22, 889.07156pt x 362.10281pt>
 File: holo.jpg Graphic file (type jpg)
 <use holo.jpg>
-Package pdftex.def Info: holo.jpg  used on input line 238.
+Package pdftex.def Info: holo.jpg  used on input line 237.
 (pdftex.def)             Requested size: 355.62233pt x 144.83855pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+LaTeX Warning: Reference `a3' on page 4 undefined on input line 243.
+
 [4]
 <caja.jpg, id=26, 877.77937pt x 370.38374pt>
 File: caja.jpg Graphic file (type jpg)
 <use caja.jpg>
-Package pdftex.def Info: caja.jpg  used on input line 276.
+Package pdftex.def Info: caja.jpg  used on input line 275.
 (pdftex.def)             Requested size: 351.10553pt x 148.15086pt.
  [5 <c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/build/holo.jpg> <c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/build/caja.jpg>]
 <IMRT.jpg, id=30, 866.48718pt x 362.85562pt>
 File: IMRT.jpg Graphic file (type jpg)
 <use IMRT.jpg>
-Package pdftex.def Info: IMRT.jpg  used on input line 304.
+Package pdftex.def Info: IMRT.jpg  used on input line 303.
 (pdftex.def)             Requested size: 346.58873pt x 145.13968pt.
- [6 <c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/build/IMRT.jpg>] (c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Guia_planeacion.aux
+
+
+LaTeX Warning: Reference `a5' on page 6 undefined on input line 310.
+
+[6 <c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/build/IMRT.jpg>] (c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Guia_planeacion.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -697,17 +727,24 @@ LaTeX Info: Redefining \% on input line 6.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 21888 strings out of 474457
- 473609 string characters out of 5752569
+ 21885 strings out of 474457
+ 473389 string characters out of 5752569
  1939190 words of memory out of 5000000
- 43895 multiletter control sequences out of 15000+600000
+ 43894 multiletter control sequences out of 15000+600000
  560838 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,11n,87p,907b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,7n,87p,907b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Guia_planeacion.pdf (6 pages, 733385 bytes).
+Output written on c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Guia_planeacion.pdf (6 pages, 733528 bytes).
 PDF statistics:
  59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

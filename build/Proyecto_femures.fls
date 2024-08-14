@@ -2,45 +2,16 @@ PWD c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex
 INPUT C:\Users\diego\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
 INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\Proyecto_femures.tex
 OUTPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Proyecto_femures.log
-INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
-INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
-INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
-INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
-INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\dashrule\dashrule.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\dashrule\dashrule.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\ifmtarg\ifmtarg.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\ifmtarg\ifmtarg.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\book.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\book.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\bk12.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\bk12.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\bk12.clo
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
@@ -48,6 +19,11 @@ INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
 INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\txtbabel.def
@@ -61,25 +37,20 @@ INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-es.ini
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\caption\subcaption.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\caption\subcaption.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\caption\caption.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\caption\caption.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\caption\caption3.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\caption\caption3.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
-INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\svgnam.def
-INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\svgnam.def
-INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\svgnam.def
-INPUT C:\Program Files\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
@@ -110,6 +81,14 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.te
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
@@ -151,56 +130,35 @@ INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.s
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\verbatim.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\verbatim.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\environ\environ.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\environ\environ.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\trimspaces\trimspaces.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\trimspaces\trimspaces.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\colortbl\colortbl.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\colortbl\colortbl.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\tocloft\tocloft.sty
+INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\tocloft\tocloft.sty
+INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\setspace\setspace.sty
+INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\setspace\setspace.sty
 INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\siunitx\siunitx.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\siunitx\siunitx.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\translations\translations.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\translations\translations.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\adjustbox\adjustbox.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\adjustbox\adjustbox.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\xkeyval\xkeyval.sty
-INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkeyval.tex
-INPUT C:\Program Files\MiKTeX\tex\generic\xkeyval\xkvutils.tex
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\adjustbox\adjcalc.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\adjustbox\adjcalc.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\adjustbox\trimclip.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\adjustbox\trimclip.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\collectbox\collectbox.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\collectbox\collectbox.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\adjustbox\tc-pdftex.def
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\varwidth\varwidth.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\varwidth\varwidth.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\varwidth\varwidth.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Proyecto_femures.aux
@@ -215,15 +173,64 @@ INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-spanish.trsl
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-spanish.trsl
-INPUT C:\Users\diego\AppData\Roaming\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-spanish.trsl
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Escudo-UNAM.pdf
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Escudo-UNAM.pdf
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Escudo-UNAM.pdf
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Escudo-UNAM.pdf
 OUTPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Proyecto_femures.pdf
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Escudo-UNAM.pdf
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Escudo-UNAM.pdf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecxc1200.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecxc1440.tfm
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Escudo-FCIENCIAS.pdf
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Escudo-FCIENCIAS.pdf
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Escudo-FCIENCIAS.pdf
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Escudo-FCIENCIAS.pdf
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Escudo-FCIENCIAS.pdf
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Escudo-FCIENCIAS.pdf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\eccc1440.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\eccc1200.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecxc1728.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\eccc1728.tfm
 INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm2488.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx2488.tfm
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Proyecto_femures.toc
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Proyecto_femures.toc
+INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Proyecto_femures.toc
+OUTPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Proyecto_femures.toc
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx1728.tfm
 INPUT c:\Users\diego\OneDrive\Escritorio\Universidad\Github\ProyectosLatex\build\Proyecto_femures.aux
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1200.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1200.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1728.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1728.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1440.pk
+INPUT C:\Users\diego\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecxc1440.pk

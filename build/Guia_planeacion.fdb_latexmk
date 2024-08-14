@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1722919253.49419 "c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/Guia_planeacion.tex" "build/Guia_planeacion.pdf" "Guia_planeacion" 1722919256.57509 0
+["pdflatex"] 1723140642.65106 "c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/Guia_planeacion.tex" "build/Guia_planeacion.pdf" "Guia_planeacion" 1723140644.24406 2
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
@@ -106,7 +106,7 @@
   "C:/Program Files/MiKTeX/tex/latex/xcolor/svgnam.def" 1700127522 4705 ec4d2f4b7125d5a5145cc9aabae1d54b ""
   "C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Program Files/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "C:/Users/diego/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1720408647 82367 cd67ccb0a786ee73255e9f1fabb41273 ""
+  "C:/Users/diego/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1723137478 82367 cd67ccb0a786ee73255e9f1fabb41273 ""
   "C:/Users/diego/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1709229485 24222072 638b9a064916b59c345073f9d95f8685 ""
   "C:/Users/diego/AppData/Roaming/MiKTeX/tex/generic/infwarerr/infwarerr.sty" 1575399508 8356 7bbb2c2373aa810be568c29e333da8ed ""
   "C:/Users/diego/AppData/Roaming/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty" 1702206890 17865 1a9bd36b4f98178fa551aca822290953 ""
@@ -132,14 +132,15 @@
   "C:/Users/diego/AppData/Roaming/MiKTeX/tex/latex/translations/dicts/translations-basic-dictionary-spanish.trsl" 1644048522 5850 2ef40dd7b6b9ada125cd1d90b7f7b307 ""
   "C:/Users/diego/AppData/Roaming/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "C:/Users/diego/AppData/Roaming/MiKTeX/tex/latex/varwidth/varwidth.sty" 1238469540 10894 d359a13923460b2a73d4312d613554c8 ""
-  "Guia_planeacion.tex" 1722919252 19950 ee0a8fe95a35fbbff768116bb821079b ""
-  "build/Guia_planeacion.aux" 1722919255 4274 e0e4203ad1c894cdd0d7fb7fb0497c04 "pdflatex"
+  "Guia_planeacion.aux" 0 -1 0 ""
+  "Guia_planeacion.tex" 1723140638 20128 c5469dfef5e0d0dbe5886536721ac873 ""
+  "build/Guia_planeacion.aux" 1723140643 4274 e0e4203ad1c894cdd0d7fb7fb0497c04 "pdflatex"
   "build/IMRT.jpg" 1722918808 146540 c844a17d39559a2bb8f354bc9e1cc88b ""
   "build/appa.jpg" 1722749684 98663 12f5469697037cab1a65963c08750a66 ""
   "build/caja.jpg" 1722916744 136660 171b1e30a8523c8bb094811ada01f256 ""
   "build/holo.jpg" 1722913038 131795 23ba92eb08ad73e224f35b4b59eaba9c ""
   "build/oblicuos.jpg" 1722829096 112218 cecd2fe8cf5fbf0d15fc5f912a5b4989 ""
-  "c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/Guia_planeacion.tex" 1722919252 19950 ee0a8fe95a35fbbff768116bb821079b ""
+  "c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/Guia_planeacion.tex" 1723140638 20128 c5469dfef5e0d0dbe5886536721ac873 ""
   (generated)
   "build/Guia_planeacion.aux"
   "build/Guia_planeacion.log"

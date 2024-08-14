@@ -1,0 +1,12 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Agradecimientos}{\es@scroman {i}}{}%
+\contentsline {chapter}{\numberline {1}Planteamiento del problema}{1}{}%
+\contentsline {chapter}{\numberline {2}Justificación}{2}{}%
+\contentsline {chapter}{\numberline {3}Marco Teórico}{3}{}%
+\contentsline {section}{\numberline {3.1}Morfofisiología ósea}{3}{}%
+\contentsline {section}{\numberline {3.2}Fracturas de femúr proximal}{3}{}%
+\contentsline {chapter}{\numberline {4}Objetivos}{4}{}%
+\contentsline {chapter}{\numberline {5}Materiales y Métodos}{5}{}%
+\contentsline {chapter}{\numberline {6}Resultados}{6}{}%
+\contentsline {chapter}{\numberline {7}Discusión de Resultados}{7}{}%
+\contentsline {chapter}{\numberline {8}Conclusiones}{8}{}%
