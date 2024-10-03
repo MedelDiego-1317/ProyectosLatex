@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1727980129.67487 "c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/Proyecto_femures.tex" "build/Proyecto_femures.pdf" "Proyecto_femures" 1727980132.67767 0
+["pdflatex"] 1727996629.32609 "c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/Proyecto_femures.tex" "build/Proyecto_femures.pdf" "Proyecto_femures" 1727996631.47788 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecbx1200.tfm" 993061958 3200 b8d69bc738e5ef3e08cefeef3109ff56 ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecbx1440.tfm" 993061960 3196 0b37fa3083e15c57cfa8c4ff52f2807a ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecbx1728.tfm" 993061962 3204 d35cb76836b6cb4ed404dd64a550530d ""
@@ -12,6 +12,7 @@
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecrm1728.tfm" 993062128 3168 11457c8185ce67fb79662ba8b03d6db1 ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecrm2488.tfm" 993062132 3184 93c67f4c0884ba9e31b75d469978f63b ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecsl1200.tfm" 993062194 3380 9020be658781595c61e159c66a595769 ""
+  "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecti1200.tfm" 993062324 2832 28bbd97ca29f46e76c87a158a9915203 ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecxc1200.tfm" 993062448 2856 56e086eeea88f7ac50ae4cba2c489b0e ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecxc1440.tfm" 993062450 2856 9a11a639917811e943d76024cbdc9f74 ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecxc1728.tfm" 993062452 2856 c88a25ede7670572ea3bc88ead43bf29 ""
@@ -122,6 +123,7 @@
   "C:/Users/diego/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1200.pk" 1723138781 28440 4efd2f96a705cff67316024e90a982fb ""
   "C:/Users/diego/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecrm1440.pk" 1723137536 34320 3aae9ef928749b0bf350f02e89306ee4 ""
   "C:/Users/diego/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecsl1200.pk" 1725508609 35064 e9b031326dd21a56f66b6ea2eb4c862d ""
+  "C:/Users/diego/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecti1200.pk" 1727323815 39120 5d0ad6cf985243b58360cf665dfc41fc ""
   "C:/Users/diego/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecxc1200.pk" 1723138162 33548 634a2585581e9a9e55d4eeab10aaf385 ""
   "C:/Users/diego/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecxc1440.pk" 1723138049 41824 decba47a61d2f953054e6166d187ad89 ""
   "C:/Users/diego/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecxc1728.pk" 1723137925 50780 96884e7ec5c1c058da6dc868beef9362 ""
@@ -132,14 +134,14 @@
   "C:/Users/diego/AppData/Roaming/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "C:/Users/diego/AppData/Roaming/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/diego/AppData/Roaming/MiKTeX/tex/latex/tocloft/tocloft.sty" 1578908763 37263 3e78d14f0f4b1a30560fea5e04de805d ""
-  "Proyecto_femures.tex" 1727980127 16758 69625b1cc47179849aa0dec5292664f3 ""
+  "Proyecto_femures.tex" 1727996628 23588 628035db46231c3bb22718d0d577d454 ""
   "build/Escudo-FCIENCIAS.pdf" 1723137473 46570 7b73fc86371e69f47b98681ff8785c82 ""
   "build/Escudo-UNAM.pdf" 1723137476 123815 579ad6c3a8838e524a72610bbda09ccc ""
-  "build/Proyecto_femures.aux" 1727980132 2980 cae3d76634ba6827758af041da8e5015 "pdflatex"
-  "build/Proyecto_femures.toc" 1727980132 1171 4b6d709bbfb6faa097c6174c80b7a0ed "pdflatex"
+  "build/Proyecto_femures.aux" 1727996631 2985 f62ddf2107f6e16abc2c84a303ea76c3 "pdflatex"
+  "build/Proyecto_femures.toc" 1727996631 1176 af05a6cae3436d19de5c9568e0b08786 "pdflatex"
   "build/osteona.pdf" 1726293726 78198 af604d7c8c9de9d41f1860c0039e07c7 ""
   "build/path1.pdf" 1726124122 44831 dfd3157676593d1ed24afa54330bd933 ""
-  "c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/Proyecto_femures.tex" 1727980127 16758 69625b1cc47179849aa0dec5292664f3 ""
+  "c:/Users/diego/OneDrive/Escritorio/Universidad/Github/ProyectosLatex/Proyecto_femures.tex" 1727996628 23588 628035db46231c3bb22718d0d577d454 ""
   (generated)
   "build/Proyecto_femures.aux"
   "build/Proyecto_femures.log"

@@ -9,10 +9,10 @@
 \contentsline {subsection}{\numberline {2.1.2}Histología del sistema óseo}{4}{}%
 \contentsline {subsubsection}{Estructura}{4}{}%
 \contentsline {subsubsection}{Componente celular}{5}{}%
-\contentsline {section}{\numberline {2.2}Desequilibrio entre la sintesis y la resorción del tejido óseo}{6}{}%
-\contentsline {section}{\numberline {2.3}Fracturas del femúr proximal}{7}{}%
-\contentsline {chapter}{\numberline {3}Objetivos}{8}{}%
-\contentsline {chapter}{\numberline {4}Materiales y Métodos}{9}{}%
-\contentsline {chapter}{\numberline {5}Resultados}{10}{}%
-\contentsline {chapter}{\numberline {6}Discusión de Resultados}{11}{}%
-\contentsline {chapter}{\numberline {7}Conclusiones}{12}{}%
+\contentsline {section}{\numberline {2.2}Desequilibrio entre la sintesis y la resorción del \\ tejido óseo}{6}{}%
+\contentsline {section}{\numberline {2.3}Fracturas del femúr proximal}{9}{}%
+\contentsline {chapter}{\numberline {3}Objetivos}{10}{}%
+\contentsline {chapter}{\numberline {4}Materiales y Métodos}{11}{}%
+\contentsline {chapter}{\numberline {5}Resultados}{12}{}%
+\contentsline {chapter}{\numberline {6}Discusión de Resultados}{13}{}%
+\contentsline {chapter}{\numberline {7}Conclusiones}{14}{}%
