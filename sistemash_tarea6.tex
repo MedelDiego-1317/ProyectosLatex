@@ -1,0 +1,93 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}   % Para imágenes.
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{dashrule}
+\usepackage{geometry}
+\usepackage[spanish, mexico]{babel}
+\usepackage{subcaption}
+\usepackage[svgnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{siunitx}
+\usepackage[export]{adjustbox}
+\usepackage{multirow}
+
+
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+
+\definecolor{gray(x11gray)}{rgb}{0.75, 0.75, 0.75}
+\definecolor{outerspace}{rgb}{0.25, 0.29, 0.3}
+\definecolor{pastelgreen}{rgb}{0.47, 0.87, 0.47}
+\definecolor{lincolngreen}{rgb}{0.11, 0.35, 0.02}
+
+\geometry{
+    a4paper,
+    tmargin = 1.7 cm,
+    bmargin = 1.7cm,
+    lmargin = 1.5cm,
+    rmargin = 1.5cm
+}
+
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{ \thepage  \hspace{0.5pt}\hspace{0.5pt}}
+\lhead{Tarea Examen}
+
+\begin{document}
+
+\thispagestyle{plain}
+
+
+\hrule
+\begin{center}
+    {\Large \textbf{UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO}}
+    \vspace{10pt}
+
+    {\Large{{Sistemas hibridos en biomedicina}}}
+    
+    
+    \vspace{10pt}
+
+    \hrule
+
+    \vspace{20pt}
+
+
+    {\Huge \textbf{Tarea 7: Cuadro comparativo}}\\
+\end{center}
+
+\hdashrule{\linewidth}{1pt}{1mm}
+
+\begin{flushright}
+    {\small Medel Garduño Diego} 
+\end{flushright}
+
+
+
+\begin{table}[h!]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|cll|}
+    \hline
+    \multicolumn{3}{|c|}{Cuadro comparativo: Técnicas que se pueden dar en un LINAC}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           \\ \hline
+    \multicolumn{1}{|c|}{IGRT}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              & \multicolumn{1}{c|}{3D CRT}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              & \multicolumn{1}{c|}{4D CT}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            \\ \hline
+    \multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}$\bullet$ Descripción:  Más que una técnica de tratamiento, \\ esta modalidad del LINAC se centra en el correcto posicionamiento\\ del paciente antes y durante el tratamiento, esto con el fin de \\ mejorar la precisión con la que se administra radiación\\ \\ $\bullet$ Particularidades: En esta técnica se pueden utilizar distintos\\ tipos de imágenes: las imágenes portales electronicas están centradas \\ en observar los campos de colocación, es decir, se establece un área \\ en la cual existen estructuras de guía y las imagenes deben ser \\ empatar con el campo.\\ \\ Por otro lado están las imágenes 2D kv, que lo que hacen es obtener\\ en terminos sencillos una radiografía del paciente, por lo que \\ permite observar mejor el tejido blando\\ \\ Por ultimo esta la tomografía computada con haz cónico, que crea \\ imágenes tridimensionales, que permiten realizar ajustes basados \\ en la anatomía del paciente y mejora la precisión de alineación \\ \\ $\bullet$ Referencias : \\  \\ ITAC. (s.f.). Radioterapia guiada por imagen (IGRT): \\ ¿Qué es y cómo funciona? ITAC Cáncer. \\ Recuperado el 18 de septiembre de 2024,  \\ de https://itaccancer.es/radioterapia-guiada-por- \\ imagen-igrt-que-es-y-como-funciona/ \end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}$\bullet$ Descripción: En este caso esta si es una técnica\\ de tratamiento, también conocida como conformal 3D. \\ Su principal fundamento es la administración de dosis\\ a partir de una tomografía, resonancia o estilo de imagén\\ que permita la visualización de las estructuras de manera\\ tridimiensional. Una vez que se obtiene el volumen\\ del paciente, un medico especialista se encarga de contornear\\ o definir las estructuras de interés, es decir, donde existe tejido\\ tumoral, también se considera la diseminación metastásica,\\ movimiento por respiración y consideraciones adicionales \\ del equipo\\ \\ \\ $\bullet$ Particularidades: A partir de los contorneos\\ tridimensionales se selecciona la forma en la que el LINAC\\ va entregar dosis, de manera general, una técnica conformal\\ considera que la dosis sea entregada de manera homogénea, es \\ decir, que no hayan gradientes de dosis. \\ \\ Algunos estilos de 3D CRT son AP/PA que considera dos campos\\ de tratamiento uno que entrega dosis de manera antero posterior\\ y otro que lo hace de forma postero anterior, este estilo se utiliza\\ principalmente en el tratamiento de huesos de la columna. Utiliza\\ energías de 6 MV y 15 MV. \\ \\ Otro estilo es la caja, este utiliza cuatro campos de tratamiento, \\ de tal manera que se forma una caja alrededor del volumen \\ contorneado, este se utiliza por ejemplo para tratar cáncer \\ cervicouterino.\\ \\ $\bullet$ Referencias: \\  \\ Moffitt Cancer Center. (s.f.). 3D CRT (three-dimensional \\ conformal radiation therapy). Recuperado el 18 de septiembre \\ de 2024, de https://www.moffitt.org/treatments/radiation- \\ therapy/3d-crt-three-dimensional-conformal-radiation-therapy/ \\ \\ Cleveland Clinic. (s.f.). 3D conformal radiation therapy (3D CRT). \\ Recuperado el 18 de septiembre de 2024, \\ de https://my.clevelandclinic.org/\\ health/procedures/3d-conformal-radiation-therapy-3d-crt \\ \\ \\ \end{tabular}} & \begin{tabular}[c]{@{}l@{}}$\bullet$ Descripción: Esta técnica también de tratamiento utiliza \\ a su vez otra tecnica, que es el IMRT por sus siglas en ingles, que\\ traducidas implican la radioterapia de intensidad modulada. \\ A diferencia de la técnica anterior esta si considera altos gradientes\\ de dosis, sin embargo es más eficiente para limitar la dosis\\ solo al tejido tumoral y evitar el tejido sano. El problema del \\ IMRT es que la misma generación de altos gradientes provoca que \\ en los cambios producidos por la respiración haya incertidumbre\\ dosimétrica.\\ \\ $\bullet$ Particularidades: Para evitar el problema antes mencionado\\ se utiliza la tomografía 4D, que añade la dimensión del tiempo, \\ en términos sencillos un tomografía 4D es un conjunto de tomografías\\ 3D que han sido tomadas en distintos ciclos de la respiración. \\ \\ De este modo la entrega de la dosis se hace por fases, considerando \\ cada corte de la tomografía 4D, así la técnica de IMRT se modifica\\ considerando en que fase esta.\end{tabular} \\ \hline
+    \end{tabular}%
+    }
+    \caption{Cuadro comparativo técnicas del LINAC}
+    \label{t1}
+    \end{table}
+
+
+
+
+
+\end{document}

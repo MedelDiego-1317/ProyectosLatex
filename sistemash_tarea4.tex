@@ -1,0 +1,126 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}   % Para imágenes.
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{dashrule}
+\usepackage{geometry}
+\usepackage[spanish, mexico]{babel}
+\usepackage{subcaption}
+\usepackage[svgnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{siunitx}
+\usepackage[export]{adjustbox}
+\usepackage{multirow}
+
+
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
+
+\definecolor{gray(x11gray)}{rgb}{0.75, 0.75, 0.75}
+\definecolor{outerspace}{rgb}{0.25, 0.29, 0.3}
+\definecolor{pastelgreen}{rgb}{0.47, 0.87, 0.47}
+\definecolor{lincolngreen}{rgb}{0.11, 0.35, 0.02}
+
+\geometry{
+    a4paper,
+    tmargin = 1.7 cm,
+    bmargin = 1.7cm,
+    lmargin = 1.5cm,
+    rmargin = 1.5cm
+}
+
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{ \thepage  \hspace{0.5pt}\hspace{0.5pt}}
+\lhead{Tarea Examen}
+
+\begin{document}
+
+\thispagestyle{plain}
+
+
+\hrule
+\begin{center}
+    {\Large \textbf{UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO}}
+    \vspace{10pt}
+
+    {\Large{{Sistemas hibridos en biomedicina}}}
+    
+    
+    \vspace{10pt}
+
+    \hrule
+
+    \vspace{20pt}
+
+
+    {\Huge \textbf{Tarea 4: Hemodinamia, fluoroscopia y arco en C.}}\\
+\end{center}
+
+\hdashrule{\linewidth}{1pt}{1mm}
+
+\begin{flushright}
+    {\small Medel Garduño Diego} 
+\end{flushright}
+
+
+
+\section{Diferencias y semejanzas}
+
+
+\subsection{Fluoroscopia}
+
+Se define como fluoroscopia a la tecnica imagenologica que hace uso de rayos x para producir imagenes en formato de video, es decir, en tiempo real, lo que la diferencia de otras tecnicas como la radiografía simple, que produce imagenenes estaticas. [[\textcolor{blue}{1}]]
+
+\vspace{10pt}
+
+
+Esta tecnica es utilizada para observar la función de ciertos sistemas del cuerpo humano, como es el digestivo, el cardiovascular y el urinario. Lo que comparten estos sistemas es que se encuentran conformados por distintos conductos que perimiten el paso de liquidos. Por ejemplo, considerando el sistema digestivo es posible observar si exsite alguna obstrucción en el esofago haciendo que el paciente consuma un liquido de contrastre y luego bajo la fluoroscopia se observe el flujo de este liquido por el esofago. [\textcolor{blue}{1}]
+
+
+
+\subsection{Arco en C}
+
+Por su parte el arco en C es una modalidad de equipo de rayos X, el cual tiene multiples utilidades ya que es portable y tiene la ventaja de que el arco en C caracterisitico de este tipo de instrumentos puede rotar, lo que permite obtener imagenes en distintos planos sin la necesidad de mover al paciente. [\textcolor{blue}{2}]
+\vspace{10pt}
+
+Su caracteristica principal es que emite radiación en dosis que se consideran significativamente bajas, por lo que es utilizado en procedimientos quirurgicos como cirugia general, ortopedio y neurocirugia. Tambien tiene implementaciones de diagnostico y tratamiento. [\textcolor{blue}{2}]
+
+\vspace{10pt}
+
+Lo anterior da la información adecuada para inferir que las imagenes que se obtienen en un arco en C son imagenes en tiempo real, por lo que se puede concluir que es una rama de la fluoroscopia que no es fija y utiliza una cantidad de dosis significativamente baja, lo que permite realizar procedimientos que requieren una mayor exposición a la radiación 
+
+
+
+\subsection{Hemodinamia}
+
+
+Por su parte la hemodinamia es una rama de la medicina que se encarga del estudio del flujo que tiene la sangre en las arterias, propiamente puede clasificarse como una rama de estudio propia de la biofisica. Con el fin de diagnosticar patologías del sistema cardiovascular se introduce un cateter en arterias especificas, ya sea la femoral o la braquial. En un aspecto de diagnostico, en el cateter se introduce un material de contrastre que permite, mediante el uso de un fluoroscopio observar la distribución de la sangre a lo largo de las arterias hasta el corazón. [\textcolor{blue}{3}]
+
+\vspace{10pt}
+
+
+Sin embargo este no es su unico fin, ya que puede utilizarse para el tratamiento de diversos padecimientos, ya que a traves de estos cateteres se pueden introducir medicamentos, de igual forma se pueden instaurar pequeñas bombas que al momento de aproximarse a una obstrucción se inflen y despejen ese vaso sanguineo. Tambien se pueden introducir mallas que permitan eliminar coagulos sanguineos, que pueden ser causantes de infartos. [\textcolor{blue}{4}]
+
+
+
+
+
+\section*{Referencias}
+
+\begin{enumerate}
+    \item [[\textcolor{blue}{1}]] MedlinePlus. (s.f.). Fluoroscopia. MedlinePlus. Recuperado el 29 de agosto de 2024, de https://medlineplus.gov/spanish/pruebas-de-laboratorio/fluoroscopia/.
+    \item [[\textcolor{blue}{2}]] Chavarría Estrada, E. (2021, 19 agosto). Arco en C: Usos y aplicaciones. Imágenes Médicas Dr. Chavarría Estrada. Recuperado el 29 de agosto de 2024, de https://www.imagenesmedicasdrchavarriaestrada.com/post/arco-en-c-usos-y-aplicaciones.
+    \item  [[\textcolor{blue}{3}]] Facultad de Medicina, UNAM. (s.f.). Hemodinamia. Fisiología, Facultad de Medicina, UNAM. Recuperado el 29 de agosto de 2024, de https://fisiologia.facmed.unam.mx/index.php/hemodinamia/.
+    \item  [[\textcolor{blue}{4}]] Colegio Argentino de Cardioangiólogos Intervencionistas. (s.f.). ¿Qué es la cardiología intervencionista o hemodinamia? Recuperado el 29 de agosto de 2024, de https://www.colegiodehemodinamia.org/para-pacientes/137-que-es-la-cardiologia-intervencionista-o-hemodinamia.
+
+\end{enumerate}
+
+\end{document}

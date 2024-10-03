@@ -1,0 +1,12 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{\numberline {1}Ultrasonido clinico EDAN modelo DUS 60}{1}{}%
+\contentsline {section}{\numberline {1.1}Descripción general del equipo}{1}{}%
+\contentsline {section}{\numberline {1.2}Carácteristicas especificas del equipo}{3}{}%
+\contentsline {subsection}{\numberline {1.2.1}Encendido}{3}{}%
+\contentsline {subsection}{\numberline {1.2.2}Elementos de la pantalla}{3}{}%
+\contentsline {subsection}{\numberline {1.2.3}Elementos del panel de control}{5}{}%
+\contentsline {subsection}{\numberline {1.2.4}Transductores}{5}{}%
+\contentsline {chapter}{\numberline {2}Adquisición de imágenes}{6}{}%
+\contentsline {chapter}{\numberline {3}Analisis estadistico}{7}{}%
+\contentsline {chapter}{\numberline {4}Presentación y discusión de resultados}{8}{}%
+\contentsline {chapter}{\numberline {5}Conclusiones}{9}{}%

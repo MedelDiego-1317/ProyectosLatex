@@ -1,0 +1,120 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}   % Para imágenes.
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{dashrule}
+\usepackage{geometry}
+\usepackage[spanish, mexico]{babel}
+\usepackage{subcaption}
+\usepackage[svgnames]{xcolor}
+\usepackage{tcolorbox}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{siunitx}
+\usepackage[export]{adjustbox}
+\usepackage{multirow}
+
+\definecolor{gray(x11gray)}{rgb}{0.75, 0.75, 0.75}
+\definecolor{outerspace}{rgb}{0.25, 0.29, 0.3}
+\definecolor{pastelgreen}{rgb}{0.47, 0.87, 0.47}
+\definecolor{lincolngreen}{rgb}{0.11, 0.35, 0.02}
+
+\geometry{
+    a4paper,
+    tmargin = 1.7 cm,
+    bmargin = 1.7cm,
+    lmargin = 1.5cm,
+    rmargin = 1.5cm
+}
+
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{ \thepage  \hspace{0.5pt}\hspace{0.5pt}}
+\lhead{Tarea Examen}
+
+\begin{document}
+
+\thispagestyle{plain}
+
+
+\hrule
+\begin{center}
+    {\Large \textbf{SOLUCIONES BIOMEDICAS: SEKKAN}}
+    \vspace{10pt}
+
+    {\Large{{Segmentación automatica}}}
+    
+    
+    \vspace{10pt}
+
+    \hrule
+
+    \vspace{20pt}
+
+
+    {\Huge \textbf{Antecedentes}}\\
+\end{center}
+
+\hdashrule{\linewidth}{1pt}{1mm}
+
+\begin{flushright}
+    {\small Medel Garduño Diego} 
+\end{flushright}
+
+
+El dato mas actualizado proporcionado por el observatorio global del cáncer (GLOBOCAN) informa que en el año 2022 hubo una incidencia de 26 565 casos de cancer de prostata a lo largo de todo México, posicionando a este padecimiento en el segundo lugar de cánceres a lo largo del territorio nacional, afectando a más del 12$\%$ de la población. En México, de manera especifica en la entidad de la ciudad de México, el Instito Nacional de Cancerología (INCAN) se encarga de proporcionar tratamiento a padecimientos relacionados con cáncer, por el momento no existe información de libre acceso que permita conocer cuantos pacientes de cancer de prostata se han atendido en los ultimos años, sin embargo, la información proporcionada por la unidad de datos abiertos informa que el INCAN en el primer semestre de 2023 atendió a 5 545 pacientes.
+
+
+\vspace{10pt}
+
+En la actualidad el INCAN trata el cáncer utilizando radioterapia, un proceso en el que se incide radiación electromagnetica ionizante (fotones) sobre tejido humano, lo que permite la disminución del tejido tumoral en algunos casos, dependiendo de la etapa de evolución del cáncer, en otros casos se aplica radioterapia con fines paliativos, para darle una mejor calidad de vida a aquellos pacientes en etapas muy avanzadas. La radioterapia contempla un flujo de trabajo que esta dividido en varios procesos, los cuales necesitan de distintas entidades del conocimiento, en primer lugar un medico especialista radioncologo se encarga del diagnostico del padecimiento, una vez determinado que un paciente tiene cáncer, se designa al área de tecnicos radiologos para que obtengan imagenes tridimensionales del paciente. Una vez obtenidas estas imagenes tridimensionales, el medico radioncologo se encarga de definir los bordes en los que de manera clinica existe tejido tumoral lo que se conoce como GTV (volumen bruto del tumor), las imagenes que utiliza el medico son tomografias axiales computarizadas, aunque la literatura indica que lo mas actualizado es conjuntar las tomagrafías con resonancia magnetica para aumentar la precisión a la hora de  designar los bordes del tejido tumoral. 
+
+\vspace{10pt}
+
+
+Una vez que el medico ha definido los bordes en los que de manera clinica existe cancer, describe otro contorno. Este nuevo volumen no solo considera en donde se encuentra de manera visible el tejido tumoral, tambien contempla aquellas zonas en donde pudo haber existido diseminación del tejido tumoral, este nuevo volumen se denomina CTV (volumen objetivo clinico). Una vez definido este volumen, el medico debe establecer otro margen, en donde considere las variaciones debidas a aspectos fisiologicos, como el movimiento del esternon al respirar, este ultimo volumen se denomina  PTV (volumen objetivo de planeación). En este punto el especialista ha designado el volumen que se va a tratar, sin embargo dentro de sus oblicaciones debe asignarle un contorno a todos aquellos organos sanos que son propensos a ser irradiados y dañados, denominados organos de riesgo (OAR), de igual forma que para los volumenes anteriores, el medico debe considerar un margen por oscilaciones debidas a procesos fisiologicos y a detalles debidos al sesgo asociado al instrumento de tratamiento, por lo que al final el OAR pasa a denominarse PRV (volumen del organo de riesgo de planeación). 
+
+
+\vspace{10pt}
+
+
+Una vez terminado este proceso de contorneo, el plan de tramiento se aprueba por el medico y se designa al área de fisicos medicos, que mediante el uso de un software especializado designan la forma en la que el acelerador lineal va a irradiar al paciente, de tal manera que la dosis sumistrada al tejido no sobrepase un umbral clinico y que sea capaz de cubrir por encima del 95 porciento al PTV. Al momento de la planeación del tratamiento, el fisico medico debe considerar proteger bajo ciertos estandares los organos designados como de riesgo (OAR), cada organo en especifico se comporta de manera diferente al ser irradiados, existen tejidos que son más radiosencibles que otros, es decir, algunos tejidos sufren de un daño mayor que otros al ser sometidos a la misma dosis.
+
+\vspace{10pt}
+
+
+En 2013 Tufve Nyholm, et al. pusieron a prueba si existia algún tipo de variación intra medicos y entre medicos, al momento de designar los margenes del PTV y PRV, sus resultados arrojaron que la variación entre medicos era alrededor de 1.7 milimetros e intra medicos era de 3 milimetros, su metodología considero incluso el tiempo entre cada contorneo considerando que no fuera una repetición de su contorneo anterior, los medicos tenian que esperar una semana entera entre cada contorneo, la interpretación en sus resultados implica que la mayor variablidad al momento de designar las estructuras de interes proviene de la repetición del contorneo por una sola persona. 
+
+\vspace{10pt}
+
+
+Los resultados anteriores representan una problematica a la hora de diseñar un plan de tramiento, ya que un punto importante al momento de evaluar un plan es considerar la cobertura, la literatura ha descrito que para que haya un avance en la disminución del volumen tumoral, se debe conformar al menos el 95 porciento del PTV, sin embargo, con las problematicas presentadas, deja de ser imperante mantener la cobertura del 95 porciento, si ni siquiera se esta considerando el volumen adeacuado. En otras palabras, la cobertura en un plan de tratamiento esta influenciada de primera mano con que el medico haya designado de manera correcta los margenes del PTV y del PRV, si estos bordes no estan bien delimitados, todo lo demás de se ve afectado y la calidad del plan de tramiento disminuye considerablemente, poniendo en riesgo la recuperación o la calidad de vida de un paciente. 
+
+\vspace{10pt}
+
+
+Esta problematica se ha visto a lo largo de todo el mundo, ya que afecta la calidad y eficiencia de los tratamientos. En los ultimos años se ha propuesto resolver este problema a partir de la implementación de redes neuronales de aprendizaje profundo para que la segmentación ahora se pueda realizar de forma automatica. Jordan Wong, et al. contrastaron el tiempo que le llevaba a un medico realizar una segmentación y el tiempo que le tomaba a la segmentación automatica basada en un algoritmo de aprendizaje profundo para cáncer de prostata, encontrando asi que en promedio el tiempo que se tardaba el algoritmo en segmentar de manera completa considerando tanto el PTV como el PRV fue de 0.4 minutos, frente a 21.3 minutos que tardaron los medicos, otro de sus resultdos indico que el algoritmo que utilizaron se centraba más en la protección de los organos de riesgo, ya que la misma segmentación realizadas por los medicos se considero como el estandar de oro, y considerando ciertas metricas estadisiticas pudieron concluir que no habia diferencia significativa entre el volumen del PRV entre dos los metodos de segmentación. Sin embargo, al comparar el volumen del PTV se observo que este era más pequeño comparado con el descrito por los medicos, y se asociaba a una deficiencia en la precisión respecto al PTV. El mismo estudio menciona que lo encontrado puede estar relacionado con limitaciones metodologicas que tuvieron, como por ejemplo considerar una muestra muy pequeña de datos. 
+
+\vspace{10pt}
+
+Por otro lado Stuart Greeham, et al. quisieron poner a prueba en 2014 un software de segmentación automatica y verificar si existia alguna correlación con los volumenes de los planes contorneados de manera manual que ya habian sido aplicados. Dentro de su estudio consideraron las estructuras de vejiga, recto, cabeza femoral izquierda y prostata, sus resultados arrojaron que cada uno de los volumenes segmentados de las estructuras mencionadas mantenian una correlación estadisticamente significativa con los volumenes que se consideraron como estandar. Aunque el resultado fue una correlación significativa, en el caso de la prostata el valor de correlación la coloco como una correlación pobre. El que hubiese una correlación significativamente estadistica con los volumenes de tratamiento, indica que los volumenes segmentados de manera automatica por un software que utilizada aprendizaje profundo, pueden ser utiles de manera clinica.
+
+\vspace{10pt}
+
+
+Por otro lado Dominique Huyskens, et al. realizaron en 2009 una caracterización cualitativa bajo la supervisión de radioncologos de las segmetaciones obtenidas al considerar un algoritmo de apredizaje profundo. Dentro de su metodología consideraron las estructuras de prostata, vejiga y recto, de igual forma, categorizaron las segmentaciones como excelentes, buenas, aceptables o no aceptables. Sus resultados arrojaron que el mayor porcentaje obtenido para las segmentaciones de prostata colocaba el trabajo del algoritmo como bueno, para la vejiga como excelente y por ultimo para el recto como no aceptable. Su discusión abarco incluso los testimonios de los propios medicos,  los cuales consideran a la segmentación como una tarea complicada muchas veces por el nulo o poco contraste que hay en las tomografias, lo que no les permite delimitar bien los limites superiores e inferiores de los organos. 
+
+\vspace{10pt}
+
+
+La prostata de paciente a paciente puede variar en gran cantidad, esto debido al comportamiento erratico de la progresión tumoral, lo que implica la dificultad del algoritmo de segmentar este organo. Por otro lado el recto presenta varias consideraciones, por un lado la definición anatomica de recto contempla como limite superior la union recto sigmoide y como limite inferior la union con el canal anal, apectos que son dificiles de determinar considerando una tomografia, incluso para los medicos.
+
+\vspace{10pt}
+
+Al dia de hoy el Instituto Nacional de Cancerología no ha implementado herramientas como la segmentación automatica basada en un algoritmo de aprendizaje profundo, de igual manera como se ha encontrado en la literatura, los modelos generados tienen limitaciones debidas al entrenamiento de los algoritmos, ya que se han considerados bases de datos, tipificadas por los propios autores como pequeñas. La implementación de la segmentación automatica basada en algoritmos de aprendizaje profundo son la respuesta a la problematica de la variabilidad y el tiempo necesario para realizar una segmentación manual, ademas su posible implementación en México traera consigo una revolución en los tiempos de espera de los pacientes.
+
+\end{document}

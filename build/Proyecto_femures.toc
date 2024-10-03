@@ -1,12 +1,18 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Agradecimientos}{\es@scroman {i}}{}%
-\contentsline {chapter}{\numberline {1}Planteamiento del problema}{1}{}%
-\contentsline {chapter}{\numberline {2}Justificación}{2}{}%
-\contentsline {chapter}{\numberline {3}Marco Teórico}{3}{}%
-\contentsline {section}{\numberline {3.1}Morfofisiología ósea}{3}{}%
-\contentsline {section}{\numberline {3.2}Fracturas de femúr proximal}{3}{}%
-\contentsline {chapter}{\numberline {4}Objetivos}{4}{}%
-\contentsline {chapter}{\numberline {5}Materiales y Métodos}{5}{}%
-\contentsline {chapter}{\numberline {6}Resultados}{6}{}%
-\contentsline {chapter}{\numberline {7}Discusión de Resultados}{7}{}%
-\contentsline {chapter}{\numberline {8}Conclusiones}{8}{}%
+\contentsline {chapter}{\numberline {1}Introducción}{1}{}%
+\contentsline {section}{\numberline {1.1}Planteamiento del problema}{1}{}%
+\contentsline {section}{\numberline {1.2}Justificación}{1}{}%
+\contentsline {chapter}{\numberline {2}Marco Teórico}{2}{}%
+\contentsline {section}{\numberline {2.1}Sistema óseo}{2}{}%
+\contentsline {subsection}{\numberline {2.1.1}Generalidades}{2}{}%
+\contentsline {subsection}{\numberline {2.1.2}Histología del sistema óseo}{4}{}%
+\contentsline {subsubsection}{Estructura}{4}{}%
+\contentsline {subsubsection}{Componente celular}{5}{}%
+\contentsline {section}{\numberline {2.2}Desequilibrio entre la sintesis y la resorción del tejido óseo}{6}{}%
+\contentsline {section}{\numberline {2.3}Fracturas del femúr proximal}{7}{}%
+\contentsline {chapter}{\numberline {3}Objetivos}{8}{}%
+\contentsline {chapter}{\numberline {4}Materiales y Métodos}{9}{}%
+\contentsline {chapter}{\numberline {5}Resultados}{10}{}%
+\contentsline {chapter}{\numberline {6}Discusión de Resultados}{11}{}%
+\contentsline {chapter}{\numberline {7}Conclusiones}{12}{}%
